@@ -25,7 +25,7 @@ int combination(int n, int r)
 
 
 
-int get_char()
+int get_integer()
 {
 	int x;
 	printf("input an integer: ");
@@ -40,9 +40,9 @@ int main(int argc, char *argv[])
 	int n,r, result;
 	
 	//n 입력 
-	n = get_char();
+	n = get_integer();
 	//r  입력
-	r = get_char();
+	r = get_integer();
 	 
 	//combinaion
 	result = combination(n,r);
